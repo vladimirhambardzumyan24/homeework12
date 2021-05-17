@@ -5,7 +5,6 @@ const obj = {
     for (let i = 0; i < item.length; i++) {
       obj._name.push([item[i], item[i].length]);
     }
-    var count = item.length;
   },
   get name() {
     return obj._name;
